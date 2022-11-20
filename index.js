@@ -320,6 +320,9 @@ class LevitonDecoraSmartPlatform {
       case 'DW4SF': // Fan Speed Control
         this.setupFanService(accessory)
         break
+      case 'D24SF': // Fan Speed Control
+        this.setupFanService(accessory)
+        break
       case 'DWVAA': // Voice Dimmer with Amazon Alexa
       case 'DW1KD': // 1000W Dimmer
       case 'DW6HD': // 600W Dimmer
